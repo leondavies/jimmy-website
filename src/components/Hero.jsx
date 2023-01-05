@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Hero(){
   return(
-    <div class="relative bg-hero-image">
 
-      <div class="px-6 pt-6 lg:px-8">
+    <div class="bg-hero-image h-screen bg-no-repeat">
+
+      <div class="px-6 py-6 lg:px-8 bg-black bg-opacity-40">
         <div>
           <nav class="flex h-9 items-center justify-between" aria-label="Global">
             <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" class="-m-1.5 p-1.5">
                 <span class="sr-only">Your Company</span>
-                <img class="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
               </a>
             </div>
             <div class="flex lg:hidden">
@@ -22,16 +22,16 @@ export default function Hero(){
               </button>
             </div>
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
-              <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Product</a>
+              <a href="#" class="font-semibold text-white hover:text-gray-900">About</a>
     
-              <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Features</a>
+              <a href="#" class="font-semibold text-white hover:text-gray-900">Testimonials</a>
     
-              <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Marketplace</a>
+              <a href="#" class="font-semibold text-white hover:text-gray-900">Programs</a>
     
-              <a href="#" class="font-semibold text-gray-900 hover:text-gray-900">Company</a>
+              <a href="#" class="font-semibold text-white hover:text-gray-900">Training</a>
             </div>
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-              <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a>
+              <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 bg-orange-btn text-white shadow-sm ring-1 ring-white hover:ring-gray-900/20">Contact</a>
             </div>
           </nav>
           <div role="dialog" aria-modal="true">
@@ -40,7 +40,7 @@ export default function Hero(){
                 <div class="flex">
                   <a href="#" class="-m-1.5 p-1.5">
                     <span class="sr-only">Your Company</span>
-                    <img class="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                    <img class="h-8" src="/assets/images/logo.png" alt="" />
                   </a>
                 </div>
                 <div class="flex">
@@ -55,16 +55,16 @@ export default function Hero(){
               <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                   <div class="space-y-2 py-6">
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Product</a>
+                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10">About</a>
     
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Features</a>
+                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10">Testimonials</a>
     
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Marketplace</a>
+                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10">Classes</a>
     
-                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
+                    <a href="#" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-white hover:bg-gray-400/10">Training</a>
                   </div>
                   <div class="py-6">
-                    <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log in</a>
+                    <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-white hover:bg-gray-400/10">Log in</a>
                   </div>
                 </div>
               </div>
@@ -74,21 +74,22 @@ export default function Hero(){
       </div>
       <main>
         <div class="relative px-6 lg:px-8">
-          <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+          <div class="mx-auto max-w-3xl pt-40 pb-32 sm:pt-80">
             <div>
               <div class="hidden sm:mb-8 sm:flex sm:justify-center">
 
               </div>
               <div>
-                <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">Data to enrich your online business</h1>
-                <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+
+                <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl text-white">Personal training in Christchurch</h1>
+                <p class="mt-6 text-lg leading-8 text-white sm:text-center">Jimmy provides personal training to help busy men & women stop "trying to get in shape", and finally achieve a health & body transformation they won’t rebound from.</p>
                 <div class="mt-8 flex gap-x-4 sm:justify-center">
-                  <a href="#" class="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700">
+                  <a href="#" class="inline-block rounded-lg bg-orange-btn px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-white hover:bg-white hover:text-orange-btn">
                     Get started
                     <span class="text-indigo-200" aria-hidden="true">&rarr;</span>
                   </a>
-                  <a href="#" class="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Live demo
+                  <a href="#" class="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 bg-gray-500 text-white ring-1 ring-white hover:text-gray-500 hover:bg-white">
+                    Testimonials
                     <span class="text-gray-400" aria-hidden="true">&rarr;</span>
                   </a>
                 </div>
