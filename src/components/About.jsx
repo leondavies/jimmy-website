@@ -13,7 +13,7 @@ return (
       <div class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
         <div class="relative flex flex-col gap-6">
           <div class="flex h-14 w-14 p-2 items-center mx-auto justify-center rounded-xl bg-orange-btn text-white sm:shrink-0">
-            <img src="/assets/images/diet.png" />
+            <img alt="test" src="/assets/images/diet.png" />
           </div>
           <div class="sm:min-w-0 sm:flex-1 text-center">
             <p class="text-lg font-semibold leading-8 text-white">Exercise plans</p>
@@ -23,7 +23,7 @@ return (
 
         <div class="relative flex flex-col gap-6">
           <div class="flex h-14 w-14 p-2 items-center mx-auto justify-center rounded-xl bg-orange-btn text-white sm:shrink-0">
-            <img src="/assets/images/yoga-pose.png" />
+            <img alt="test" src="/assets/images/yoga-pose.png" />
           </div>
           <div class="sm:min-w-0 sm:flex-1 text-center">
             <p class="text-lg font-semibold leading-8 text-white">Yoga</p>
@@ -33,7 +33,7 @@ return (
 
         <div class="relative flex flex-col gap-6">
           <div class="flex h-14 w-14 p-2 items-center mx-auto justify-center rounded-xl bg-orange-btn text-white sm:shrink-0">
-            <img src="/assets/images/weightlifter.png" />
+            <img alt="test" src="/assets/images/weightlifter.png" />
           </div>
           <div class="sm:min-w-0 sm:flex-1 text-center">
             <p class="text-lg font-semibold leading-8 text-white">Weightlifting</p>
@@ -43,7 +43,7 @@ return (
 
         <div class="relative flex flex-col gap-6">
           <div class="flex h-14 w-14 p-2 items-center mx-auto justify-center rounded-xl bg-orange-btn text-white sm:shrink-0">
-            <img src="/assets/images/healthy-food.png" />
+            <img alt="test" src="/assets/images/healthy-food.png"  />
           </div>
           <div class="sm:min-w-0 sm:flex-1 text-center">
             <p class="text-lg font-semibold leading-8 text-white">Diet plans</p>
